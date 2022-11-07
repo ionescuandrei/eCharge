@@ -6,6 +6,7 @@ namespace eChargeAPI.Models
     {
         [Key]
         public int Id { get; set; }
+        [Required]
         public string TextReview { get; set; }
         public byte Rating { get; set; }
         public User User { get; set; }
