@@ -44,9 +44,10 @@ namespace eChargeAPI.Services
             return await _context.Cars.FindAsync(carId);
         }
 
-        public Task<IEnumerable<Car>> GetCarByUserId(int userId)
+        public async Task<IEnumerable<Car>> GetCarByUserId(int userId)
         {
-            throw new System.NotImplementedException();
+            var user_cars = await _context.Cars.Where(c => c.Owner_id.Id == userId).ToListAsync();
+            return user_cars;
         }
 
         public async Task<Car> InsertCar(Car car)

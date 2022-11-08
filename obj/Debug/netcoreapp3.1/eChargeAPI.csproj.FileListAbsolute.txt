@@ -66,3 +66,6 @@ D:\Projects\eChargeApi\eChargeAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore
 D:\Projects\eChargeApi\eChargeAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Projects\eChargeApi\eChargeAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Projects\eChargeApi\eChargeAPI\obj\Debug\netcoreapp3.1\eChargeAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\eChargeApi\eChargeAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Projects\eChargeApi\eChargeAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\eChargeApi\eChargeAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
