@@ -6,7 +6,7 @@ namespace eChargeAPI.Repos
 {
     public interface ICarRepo
     {
-       Task<IEnumerable<Car>> GetAllCars();
+        Task<IEnumerable<Car>> GetAllCars();
         Task<IEnumerable<Car>> GetCarByUserId(int userId);
         Task<Car> GetCarById(int carId);
         Task<Car> InsertCar(Car car);

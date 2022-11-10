@@ -16,6 +16,7 @@ namespace eChargeAPI.Models
         public long Year { get; set; }
         [Required]
         public double BatteryCapacity { get; set; }
+        public double ChargingCapacity { get; set; }
         [Required]
         public int VehicleMaxSpeed { get; set; }
         [Required]
